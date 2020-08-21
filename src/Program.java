@@ -26,7 +26,9 @@ public class Program {
 		arrEst[4].nombre = "Karen";
 		arrEst[4].pagos = 500;
 		
-		
+		System.out.println("Promedio: " + cal.promedio(arrEst));
+		System.out.println("Mayor pago: " + cal.mayor(arrEst));
 		System.out.println("La diferencia entre el promedio y el estudiante con mayor pago es: " + cal.getDiffAvg(cal.promedio(arrEst), cal.mayor(arrEst)));
+		
 	}
 }
